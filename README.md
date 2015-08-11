@@ -48,7 +48,7 @@ This is the NAT-ed address of your server, or the public domain of your server.
 
 The jmx server will listen on this address, such as 127.0.0.1, or 192.168.1.1. This is the address printed on your machine's interface.
 
-3. 
+3.
 **jmx.agent.port**
 
 The jmx server will listen on this port.
