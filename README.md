@@ -43,9 +43,9 @@ Add the following into build.sbt:
 	libraryDependencies += "woshilaiceshide" % "simple-jmx-agent" % "1.0"
 	
 	bashScriptExtraDefines += """addJava "-javaagent:${lib_dir}/woshilaiceshide.simple-jmx-agent-1.0.jar""""
-	bashScriptExtraDefines += """addJava "-Djava.rmi.server.hostname=app1.host1.com"""
-	bashScriptExtraDefines += """addJava "-Djmx.agent.listen.address=0.0.0.0"""
-	bashScriptExtraDefines += """addJava "-Djmx.agent.port=7777"""
+	bashScriptExtraDefines += """addJava "-Djava.rmi.server.hostname=app1.host1.com""""
+	bashScriptExtraDefines += """addJava "-Djmx.agent.listen.address=0.0.0.0""""
+	bashScriptExtraDefines += """addJava "-Djmx.agent.port=7777""""
 
 Maybe the repository https://dl.bintray.com/woshilaiceshide/maven should be added.
 

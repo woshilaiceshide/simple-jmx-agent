@@ -2,7 +2,7 @@ name := "simple-jmx-agent"
 
 organization := "woshilaiceshide"
 
-version := "1.0"
+version := "1.1"
 
 description := "a simple-jmx-agent using a single fixed port"
 
@@ -37,5 +37,5 @@ net.virtualvoid.sbt.graph.Plugin.graphSettings
 unmanagedSourceDirectories in Compile <+= baseDirectory( _ / "src" / "java" )
 
 packageOptions in (Compile, packageBin) +=  {
-  Package.ManifestAttributes( "Premain-Class" -> "woshilaiceshide.jxm.agent.Agent" )
+  Package.ManifestAttributes( "Premain-Class" -> "woshilaiceshide.jmx.agent.Agent" )
 }
