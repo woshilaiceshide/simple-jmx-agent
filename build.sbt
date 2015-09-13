@@ -16,6 +16,8 @@ autoScalaLibrary := false
 
 enablePlugins(BintrayPlugin)
 
+pomIncludeRepository  := {_ => false}
+
 bintrayRepository := "maven"
 
 bintrayOrganization := None
